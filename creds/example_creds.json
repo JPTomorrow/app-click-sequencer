@@ -1,0 +1,23 @@
+{
+    "sandbox" : 
+    {
+        "client_id" : "abc",
+        "client_secret" : "123",
+        "base_url" : "https://sandbox.procore.com",
+        "oauth_url" : "https://login-sandbox.procore.com",
+        "redirect_uri" : [ 
+            "urn:ietf:wg:oauth:2.0:oob"
+        ]
+    },
+
+    "real" : 
+    {
+        "client_id" : "qwe",
+        "client_secret" : "345",
+        "base_url" : "https://api.procore.com",
+        "oauth_url" : "https://login.procore.com",
+        "redirect_uri" : [ 
+            "urn:ietf:wg:oauth:2.0:oob"
+        ]
+    }
+}
